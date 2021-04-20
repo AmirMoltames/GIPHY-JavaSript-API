@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giphy Gallery</title>
+    <link rel="stylesheet" href="index.css">
+    <style></style>
+</head>
+
+<body>
+<header id="main-nav">
+    <ul>
+        <li><a href="#" onclick="displayContent('',true,'popular')">Popular</a></li>
+        <li><a href="#" onclick="displayContent('trending')">Trending</a></li>
+        <li><a href="#" onclick="displayContent('random')">Random</a></li>
+    </ul>
+    <form id="search_form">
+        <input id="search" type="text" placeholder="Search for Giphy">
+        <button id="search_submit_btn" type="submit">Search</button>
+    </form>
+</header>
+<div class="container">
+    <div class="title-header">
+        <h1 id="title"></h1>
+    </div>
+    <div id="result">
+
+    </div>
+</div>
+<footer>
+    <div class="copy-right">Copyright © <span id="date"></span> Amir Moltames. All rights reserved.</div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>

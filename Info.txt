@@ -1,0 +1,24 @@
+# Final project
+
+Winner: Giphy!
+
+## Project description
+
+* Create a giphy gallery page
+* Use giphy API to get most trending / most popular / random
+* BONUS: Search by keyword
+
+## Steps
+
+* Get an API key for Giphy api (https://developers.giphy.com/docs/api)
+* Familiarize yourself with API and response types
+* Sketch / dummy gallery web page
+* Populate your gallery with data from the Giphy API
+
+
+
+
+You can use my API key: 7RnCAJRM2UuG6CfLOHTU835dVNfQ1XgF
+
+The full URL to get the trending images would be:
+https://api.giphy.com/v1/gifs/trending?api_key=7RnCAJRM2UuG6CfLOHTU835dVNfQ1XgF
